@@ -1,0 +1,25 @@
+$env : "https://fpimagestorage.blob.core.windows.net/flatplanetfonts";
+
+@font-face {
+  font-family: 'Manrope';
+  src: url($env+'/ManropeRegular.eot');
+  src:
+    /* Super Modern Browsers */
+    // url('./font/RubikRegular.woff2') format('woff2'),  
+    /* Pretty Modern Browsers */
+    url($env+'/ManropeRegular.woff') format('woff'),
+    /* Safari, Android, iOS */
+    url($env+'ManropeRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ManropeExtraBold';
+  src: url($env +'/ManropeExtraBold.eot');
+  src:
+    /* Super Modern Browsers */
+    // url('./font/RubikRegular.woff2') format('woff2'),  
+    /* Pretty Modern Browsers */
+    url($env +'/ManropeExtraBold.woff') format('woff'),
+    /* Safari, Android, iOS */
+    url($env +'/ManropeExtraBold.ttf') format('truetype');
+}
